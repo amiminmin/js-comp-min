@@ -1,6 +1,6 @@
 const fs = require('fs');
 const babel = require('babel');
-const cleanCss = require('clean-css-cli');
+const minCss = require('clean-css-cli');
 
 function check(filePath) {
     let isExit = false;
